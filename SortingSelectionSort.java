@@ -13,7 +13,7 @@ public class SortingSelectionSort {
       swap(array, i, minIndex);
     }
     
-    System.out.println(Arrays.toString(array));
+    System.ou.println(Arrays.toString(array));
   }
   
   public static int indexOfMinimum(int[] array, int startIndex) {
