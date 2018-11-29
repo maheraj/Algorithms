@@ -2,7 +2,7 @@ import java.util.*;
 public class SortingInsertionSort {
 
   public static void main(String[] args) {
-    int[] array = [22, 11, 99, 88, 9, 7, 42];
+    int[] array = {22, 11, 99, 88, 9, 7, 42};
     doSorting(array);
     System.out.println(Arrays.toString(array));
   }
@@ -12,7 +12,7 @@ public class SortingInsertionSort {
     }
   }
   
-  public  staticvoid insert(int[] array, rightIndex, value) {
+  public  static void insert(int[] array, int rightIndex, int value) {
     int index;
     for(index = rightIndex; index > -1 && value < array[index]; index--) {
       array[index + 1] = array[index];
