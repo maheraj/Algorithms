@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 public class RecursionTowerOfHanoi {
     public static void main(String[] Args) {
         towerOfHanoi(4, 'A', 'C', 'B');

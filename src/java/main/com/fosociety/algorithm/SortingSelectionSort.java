@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 import java.util.*;
 public class SortingSelectionSort {
 
@@ -13,7 +15,7 @@ public class SortingSelectionSort {
       swap(array, i, minIndex);
     }
     
-    System.ou.println(Arrays.toString(array));
+    System.out.println(Arrays.toString(array));
   }
   
   public static int indexOfMinimum(int[] array, int startIndex) {

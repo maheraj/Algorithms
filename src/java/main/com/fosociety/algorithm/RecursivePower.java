@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 public class RecursivePower {
   public static void main(String[] args) {
     System.out.println(doPower(4, 3));

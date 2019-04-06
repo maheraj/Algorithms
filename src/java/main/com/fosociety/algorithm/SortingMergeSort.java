@@ -1,3 +1,6 @@
+package com.fosociety.algorithm;
+
+
 import java.util.*;
 
 public class SortingMergeSort {
@@ -16,9 +19,9 @@ public class SortingMergeSort {
     }
   }
   
-  public static void merge(int[] array, int left, int middle, int right) {
+  public static void merge(int[] array, int left, int mid, int right) {
     int[] leftHalf = new int[mid - left + 1];
-    int[] rightHalf = new int(right - mid);
+    int[] rightHalf = new int[right - mid];
     
     for(int i = 0; i < leftHalf.length; i++) {
       leftHalf[i] = array[left + i];
@@ -41,15 +44,15 @@ public class SortingMergeSort {
     }
     
     while(i < leftHalf.length) {
-      array[k] = leftHalf[i]
+      array[k] = leftHalf[i];
       i++;
-      k++
+      k++;
     }
     
     while(j < rightHalf.length) {
-      array[k] = rightHalf[j]
+      array[k] = rightHalf[j];
       j++;
-      k++
+      k++;
     }
   }
 }

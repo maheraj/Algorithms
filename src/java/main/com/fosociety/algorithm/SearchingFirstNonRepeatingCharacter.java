@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 // This question was asked in zalando tech interview test
 
 public class SearchingFirstNonRepeatingCharacter {

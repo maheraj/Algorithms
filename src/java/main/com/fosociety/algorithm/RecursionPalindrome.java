@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 public class RecursionPalindrome {
 
   public static void main(String[] Args) {

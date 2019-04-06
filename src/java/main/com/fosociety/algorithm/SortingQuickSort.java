@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 import java.util.*;
 
 public class SortingQuickSort {

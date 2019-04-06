@@ -1,3 +1,5 @@
+package com.fosociety.algorithm;
+
 public class SearchBinarySearch {
 
 public static void main(String[] args) {
@@ -10,7 +12,7 @@ public static void main(String[] args) {
   public static int doSearch(int[]array, int targetValue) {
     int min = 0, max = array.length;
     int guess;
-    whicle(min <= max) {
+    while (min <= max) {
       guess = (min + max) / 2;
       if(array[guess] == targetValue) {
         return guess;
